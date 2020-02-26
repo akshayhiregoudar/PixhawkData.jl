@@ -13,7 +13,7 @@ end
 
 
 # TODO create a repo
-bin_prefix = "http://www.github.com/akshayhiregoudar/PixhawkDataBuilder/releases/download/v0.1.0"
+bin_prefix = "http://www.github.com/akshayhiregoudar/PixhawkDataBuilder/releases/download/v1.0"
 
 
 # TODO check version number
