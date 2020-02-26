@@ -18,11 +18,11 @@ bin_prefix = "http://www.github.com/akshayhiregoudar/PixhawkDataBuilder/releases
 
 # TODO check version number
 download_info = Dict(
-    Linux(:x86_64, libc=:glibc, compiler_abi=CompilerABI(:gcc7)) => ("$bin_prefix/PixhawkData.v0.1.0.x86_64-linux-gnu-gcc7.tar.gz", "2fd4429180f94e67284ae37704aa22bed357e2a356062f8af0cd39397a173f4c"),
-    Linux(:x86_64, libc=:glibc, compiler_abi=CompilerABI(:gcc8)) => ("$bin_prefix/PixhawkData.v0.1.0.x86_64-linux-gnu-gcc8.tar.gz", "7caaa648e059c354892a5503b30bf3b2d368469b4295f54564f8a212fa3e2893"),
-    Windows(:x86_64, compiler_abi=CompilerABI(:gcc7)) => ("$bin_prefix/PixhawkData.v0.1.0.x86_64-w64-mingw32-gcc7.tar.gz", "782f52898e81c51abd8930c34184a6f99d78e4a49e7a6c753b9eb0741e8bcdfc"),
-    Windows(:x86_64, compiler_abi=CompilerABI(:gcc8)) => ("$bin_prefix/PixhawkData.v0.1.0.x86_64-w64-mingw32-gcc8.tar.gz", "283473593d120f968366f85da52bd4341ac94715c49476adf9bdd1688b445411"),
-    MacOS(:x86_64) => ("$bin_prefix/PixhawkData.v0.1.0.x86_64-apple-darwin14.tar.gz", "de9236acab1975a06f218d2939f6c319fb0bc67546e89cdc5c85ef90be509cb4"),
+    Linux(:x86_64, libc=:glibc, compiler_abi=CompilerABI(:gcc7)) => ("$bin_prefix/PixhawkData.v1.0.x86_64-linux-gnu-gcc7.tar.gz", "2fd4429180f94e67284ae37704aa22bed357e2a356062f8af0cd39397a173f4c"),
+    Linux(:x86_64, libc=:glibc, compiler_abi=CompilerABI(:gcc8)) => ("$bin_prefix/PixhawkData.v1.0.x86_64-linux-gnu-gcc8.tar.gz", "7caaa648e059c354892a5503b30bf3b2d368469b4295f54564f8a212fa3e2893"),
+    Windows(:x86_64, compiler_abi=CompilerABI(:gcc7)) => ("$bin_prefix/PixhawkData.v1.0.x86_64-w64-mingw32-gcc7.tar.gz", "782f52898e81c51abd8930c34184a6f99d78e4a49e7a6c753b9eb0741e8bcdfc"),
+    Windows(:x86_64, compiler_abi=CompilerABI(:gcc8)) => ("$bin_prefix/PixhawkData.v1.0.x86_64-w64-mingw32-gcc8.tar.gz", "283473593d120f968366f85da52bd4341ac94715c49476adf9bdd1688b445411"),
+    MacOS(:x86_64) => ("$bin_prefix/PixhawkData.v1.0.x86_64-apple-darwin14.tar.gz", "de9236acab1975a06f218d2939f6c319fb0bc67546e89cdc5c85ef90be509cb4"),
 )
 
 unsatisfied = any(!satisfied(p; verbose=verbose) for p in products)
