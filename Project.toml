@@ -1,10 +1,13 @@
 name = "PixhawkData"
 uuid = "1962aac8-0cfd-4f8a-81f1-b04d323d3c20"
 authors = ["Akshay Hiregoudar"]
+repo = "https://github.com/akshayhiregoudar/PixhawkData.jl"
 version = "0.1.0"
 
-[compat]
-julia = "1"
+[deps]
+BinaryProvider = "b99e7846-7c00-51b0-8f62-c81ae34c0232"
+Cxx = "a0b5b9ef-44b7-5148-a2d1-f6db19f3c3d2"
+Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
