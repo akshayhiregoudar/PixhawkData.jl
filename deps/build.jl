@@ -18,7 +18,7 @@ bin_prefix = "http://www.github.com/akshayhiregoudar/PixhawkDataBuilder/releases
 
 # TODO check version number
 download_info = Dict(
-    Linux(:x86_64, libc=:glibc, compiler_abi=CompilerABI(:gcc7)) => ("$bin_prefix/PixhawkData.v1.0.x86_64-linux-gnu-gcc7.tar.gz", "de511d6392065205427cf809dbd75c3d15a19022a9ddf69bbce6ad251298ddd0"),
+    Linux(:x86_64, libc=:glibc, compiler_abi=CompilerABI(:gcc7)) => ("$bin_prefix/PixhawkData.v1.0.x86_64-linux-gnu-gcc7.tar.gz", "57f0d9f9e89f05db78ec41c6cb5878b8e2290e9868175f556a34bcfc61df0578"),
     Linux(:x86_64, libc=:glibc, compiler_abi=CompilerABI(:gcc8)) => ("$bin_prefix/PixhawkData.v1.0.x86_64-linux-gnu-gcc8.tar.gz", "7caaa648e059c354892a5503b30bf3b2d368469b4295f54564f8a212fa3e2893"),
     Windows(:x86_64, compiler_abi=CompilerABI(:gcc7)) => ("$bin_prefix/PixhawkData.v1.0.x86_64-w64-mingw32-gcc7.tar.gz", "782f52898e81c51abd8930c34184a6f99d78e4a49e7a6c753b9eb0741e8bcdfc"),
     Windows(:x86_64, compiler_abi=CompilerABI(:gcc8)) => ("$bin_prefix/PixhawkData.v1.0.x86_64-w64-mingw32-gcc8.tar.gz", "283473593d120f968366f85da52bd4341ac94715c49476adf9bdd1688b445411"),
