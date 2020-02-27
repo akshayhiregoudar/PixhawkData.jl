@@ -1,11 +1,11 @@
 using Cxx
 using Libdl
 
-const path_to_lib = "/home/jarv1s/pixhawk_sensor_data"
+#const path_to_lib = "/home/jarv1s/pixhawk_sensor_data"
 #const path_to_header = joinpath(@__DIR__, "..", "deps", "usr", "include")
 
-addHeaderDir(path_to_lib, kind=C_System)
-Libdl.dlopen(path_to_lib * "/libPixhawkData.so", Libdl.RTLD_GLOBAL)
+#addHeaderDir(path_to_lib, kind=C_System)
+#Libdl.dlopen(path_to_lib * "/libPixhawkData.so", Libdl.RTLD_GLOBAL)
 
 cxxinclude("serial_port.h")
 cxxinclude("autopilot_interface.h")
